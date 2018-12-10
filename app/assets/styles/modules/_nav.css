@@ -1,0 +1,14 @@
+nav.menu-links{
+  float: right;
+}
+  nav.menu-links a{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}

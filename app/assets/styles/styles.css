@@ -1,1 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import 'normalize.css';
+@import '@fortawesome/fontawesome-free';
+@import 'base/_global';
+@import 'modules/_top-section';
+@import 'modules/_wrapper';
+@import 'modules/_nav';

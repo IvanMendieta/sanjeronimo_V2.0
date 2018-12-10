@@ -1,0 +1,16 @@
+/* Global css rules */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background: url('/assets/img/wallet.png');
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+*{
+  box-sizing: border-box;
+}
