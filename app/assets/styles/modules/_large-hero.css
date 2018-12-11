@@ -1,0 +1,49 @@
+.large-hero{
+  position: relative;
+
+  &__image{
+      display: block;
+    }
+
+    &__text-content{
+      position: absolute;
+      top: 35%;
+      transform: translateY(-50%);
+      left: 0;
+      width: 100%;
+      text-align: center;
+      padding-top: 100px;
+    }
+    &__title{
+      color: $mainWhite;
+      font-family: 'Yantramanav', sans-serif;
+      font-size: 2.875rem;
+      @mixin atSmall{
+        font-size: 1.875rem;
+      }
+    }
+    &__subtitle{
+      color: $mainWhite;
+      font-family: 'Yantramanav', sans-serif;
+      font-size: 1.5rem;
+    }
+    &__description{
+      color: $mainWhite;
+      font-family: 'Yantramanav', sans-serif;
+      font-size: 1.2rem;
+      max-width: 450px;
+      margin: 0 auto;
+      margin-top: 20px;
+      display: inline-block;
+      font-weight: bold;
+      font-style: italic;
+      @mixin atSmall{
+        margin-top: 7px;
+      }
+    }
+
+
+
+
+
+}

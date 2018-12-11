@@ -1,14 +1,16 @@
-nav.menu-links{
+nav.navlinks{
   float: right;
 }
-  nav.menu-links a{
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 1rem;
-  }
-nav ul{
+nav.navlinks ul {
   display: inline-block;
-  list-style-type: none;
 }
+  nav.navlinks li{
+    list-style-type: none;
+  }
+    nav.navlinks a{
+      text-decoration: none;
+      color: $mainWhite;
+      font-family: 'Yantramanav', sans-serif;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }

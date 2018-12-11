@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:400,500,700');
 @import 'normalize.css';
-@import '@fortawesome/fontawesome-free';
 @import 'base/_global';
-@import 'modules/_top-section';
+@import 'base/_mixins';
+@import 'base/_variables';
+@import 'modules/_site-header';
+@import 'modules/_large-hero';
 @import 'modules/_wrapper';
+@import 'modules/_logo';
 @import 'modules/_nav';
+@import 'modules/_btn';

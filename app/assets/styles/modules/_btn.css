@@ -1,0 +1,30 @@
+.btn{
+  background-color: $mainOrange;
+  color: #fff;
+  text-decoration: none;
+  padding: .75rem 2rem;
+  display: inline-block;
+  border-radius: 3px;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+
+
+  &--margin-top{
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+
+  &--login{
+    background-color: $mainYellow;
+    padding: .25rem 2rem;
+    color: $mainOrange !important;
+    text-transform: none;
+    font-size: 1rem;
+    border-radius: 2px;
+  }
+
+
+
+}
