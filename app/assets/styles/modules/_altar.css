@@ -1,0 +1,38 @@
+.about-us{
+  margin-top: 50px;
+  text-align: center;
+
+  &__text-content{
+    background-color: $mainWhite;
+    padding: 50px 100px;
+    @mixin atSmall{
+      padding: 18px 18px;
+    }
+  }
+  &__title{
+    font-size: 1.8rem;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 400;
+    @mixin atSmall{
+      font-size: 1.5rem;
+    }
+  }
+  &__subtitle{
+    font-size: 1.3rem;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bold;
+    @mixin atSmall{
+      font-size: 1rem;
+    }
+  }
+  &__description{
+    font-size: 1.1rem;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 400;
+    @mixin atSmall{
+      font-size: 1rem;
+    }
+  }
+
+
+}
