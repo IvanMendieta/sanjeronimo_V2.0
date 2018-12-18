@@ -3,6 +3,7 @@
   text-align: center;
 
   &__text-content{
+    border-top: 3px solid $mainOrange;
     background-color: $mainWhite;
     padding: 50px 100px;
     @mixin atSmall{
@@ -23,6 +24,10 @@
     font-weight: bold;
     @mixin atSmall{
       font-size: 1rem;
+    }
+    &--ministerio{
+      color: $mainOrange;
+      font-size: 1.1rem;
     }
   }
   &__description{

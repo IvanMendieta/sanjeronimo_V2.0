@@ -393,6 +393,7 @@ nav.navlinks a{
 
 }
 .about-us__text-content{
+    border-top: 3px solid #a54b11;
     background-color: #fff;
     padding: 50px 100px;
   }
@@ -424,6 +425,10 @@ nav.navlinks a{
       font-size: 1rem
   }
   }
+.about-us__subtitle--ministerio{
+      color: #a54b11;
+      font-size: 1.1rem;
+    }
 .about-us__description{
     font-size: 1.1rem;
     font-family: 'Yantramanav', sans-serif;
