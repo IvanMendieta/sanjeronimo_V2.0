@@ -1,6 +1,5 @@
 .large-hero{
   position: relative;
-
   &__image{
       display: block;
     }

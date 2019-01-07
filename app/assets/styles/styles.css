@@ -3,6 +3,7 @@
 @import 'base/_global';
 @import 'base/_mixins';
 @import 'base/_variables';
+@import 'base/_font-awesome';
 @import 'modules/_site-header';
 @import 'modules/_large-hero';
 @import 'modules/_wrapper';
@@ -10,3 +11,8 @@
 @import 'modules/_nav';
 @import 'modules/_altar';
 @import 'modules/_btn';
+@import 'modules/_mision-vision';
+@import 'modules/_margin-top-section';
+@import 'modules/_sponsors';
+@import 'modules/_calendar';
+@import 'modules/_quotes';

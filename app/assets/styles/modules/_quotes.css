@@ -1,0 +1,13 @@
+.container-quotes{
+  background-color: #432e1d;
+  margin: 0 !important;
+  text-align: center;
+  padding: 6px;
+  color: $mainWhite;
+
+  &__autor{
+    color: #c81414;
+  }
+
+
+}

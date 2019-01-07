@@ -288,13 +288,15 @@ img{
 *{
   box-sizing: border-box;
 }
+.fa-facebook{
+  color: #355ba4;
+  cursor: pointer;
+}
 .site-header{
   position: absolute;
   z-index: 2;
   width: 100%;
   background-color: rgba(165,75,17, .4);
-
-
 
 
 
@@ -396,6 +398,10 @@ nav.navlinks a{
     border-top: 3px solid #a54b11;
     background-color: #fff;
     padding: 50px 100px;
+    background-image: url('/assets/img/logot.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
   }
 /*** if screen is larger than 530 do this ***/
 @media (max-width: 530px){
@@ -466,4 +472,58 @@ nav.navlinks a{
     text-transform: none;
     font-size: 1rem;
     border-radius: 2px;
+  }
+.mision-vision__content{
+    text-align: center;
+    margin-left: 190px;
+  }
+.mision-vision__title{
+    color: #a54b11;
+    font-family: 'Yantramanav', sans-serif;
+    max-width: 670px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 400;
+  }
+.mision-vision__mision{
+    float: left;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    background-color: #fff;
+  }
+.mision-vision__vision{
+    max-width: 400px;
+    margin: 0 auto;
+    float: left;
+    padding: 0px 20px;
+    background-color: #fff;
+    margin-left: 40px;
+  }
+.margin-top-section{
+  margin-top: 30px;
+
+}
+.sponsors__content{
+  
+
+
+}
+.calendar-section{
+  background-color: #fff;
+
+
+}
+.container-quotes{
+  background-color: #432e1d;
+  margin: 0 !important;
+  text-align: center;
+  padding: 6px;
+  color: #fff;
+
+
+}
+.container-quotes__autor{
+    color: #c81414;
   }
